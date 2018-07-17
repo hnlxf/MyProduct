@@ -12,7 +12,7 @@
 #import <objc/runtime.h>
 #import "Person.h"
 #import "MBlockModel.h"
-
+#import "SF001.h"
 @interface ViewController ()
 @property (nonatomic,strong)Person *person;
 @end
@@ -26,9 +26,26 @@
     
 //    [self customKVO];
     
-    
-    
-    [self myBlock];
+//    int a[5]={1,2,3,4,5};
+//    int *begin;
+//    begin=a;
+//    int *end=a+sizeof(a)/sizeof(int)-1;
+//    while (begin<end) {
+//        int temp=*begin;
+//        *begin++=*end;
+//        *end--=temp;
+//    }
+//    for (int i=0;i<sizeof(a)/sizeof(int);i++)
+//    {
+//        printf("%d",a[i]);
+//    }
+//
+//    [self myBlock];
+    int num[]={1,2,3,4,5,6};
+    int length=sizeof(num)/sizeof(int);
+    intReversal(num,length);
+//    [self char_rever];
+  
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -103,6 +120,16 @@
    
 }
 
+//算法-字符反转
+-(void)char_rever
+{
+//    char cha[]="1234";
+//    char *m;
+//    m=&cha[0];
+//    printf("-----%s------",m);
+//    characterReversal(m);
+//    printf("-----%s------",cha);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -19,6 +19,7 @@
 		18814F4420F8DBCB007659DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814F4320F8DBCB007659DA /* main.m */; };
 		18814F4E20F8DBCB007659DA /* Test01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814F4D20F8DBCB007659DA /* Test01Tests.m */; };
 		18814F5920F8DBCB007659DA /* Test01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18814F5820F8DBCB007659DA /* Test01UITests.m */; };
+		18B51D6120FE386200A1EF3E /* SF001.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B51D6020FE386200A1EF3E /* SF001.m */; };
 		18BD68E420FCD4360002563D /* MBlockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD68E320FCD4360002563D /* MBlockModel.m */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		18814F5820F8DBCB007659DA /* Test01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test01UITests.m; sourceTree = "<group>"; };
 		18814F5A20F8DBCB007659DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18814F6720F8DBF8007659DA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		18B51D5F20FE386200A1EF3E /* SF001.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SF001.h; sourceTree = "<group>"; };
+		18B51D6020FE386200A1EF3E /* SF001.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SF001.m; sourceTree = "<group>"; };
 		18BD68E220FCD4360002563D /* MBlockModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBlockModel.h; sourceTree = "<group>"; };
 		18BD68E320FCD4360002563D /* MBlockModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBlockModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +123,7 @@
 		18814F2820F8DBCB007659DA = {
 			isa = PBXGroup;
 			children = (
+				18B51D5B20FE1B7500A1EF3E /* suanfa */,
 				18BD68E120FCD40A0002563D /* block */,
 				18BD68E020FC959D0002563D /* runloop */,
 				18796A0820FB171D00FCAFBE /* kvo */,
@@ -183,6 +187,15 @@
 				18814F6720F8DBF8007659DA /* OpenGLES.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18B51D5B20FE1B7500A1EF3E /* suanfa */ = {
+			isa = PBXGroup;
+			children = (
+				18B51D5F20FE386200A1EF3E /* SF001.h */,
+				18B51D6020FE386200A1EF3E /* SF001.m */,
+			);
+			path = suanfa;
 			sourceTree = "<group>";
 		};
 		18BD68E020FC959D0002563D /* runloop */ = {
@@ -340,6 +353,7 @@
 				18814F3920F8DBCB007659DA /* ViewController.m in Sources */,
 				18814F4420F8DBCB007659DA /* main.m in Sources */,
 				18814F3620F8DBCB007659DA /* AppDelegate.m in Sources */,
+				18B51D6120FE386200A1EF3E /* SF001.m in Sources */,
 				1877148A20FA0354005CAAA9 /* Teacher.m in Sources */,
 				1877148720F9F163005CAAA9 /* Student.m in Sources */,
 			);
