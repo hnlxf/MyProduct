@@ -25,6 +25,13 @@
 //    NSLog(@"hello world");
 //}
 
+void addwelcome()
+{
+   
+   NSLog(@"wwww");
+}
+
+
  void addHello()
 {
     
